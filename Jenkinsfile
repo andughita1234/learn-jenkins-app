@@ -12,7 +12,6 @@ pipeline {
             steps {
                 // Set up Python environment
                 sh '''
-                    python3 -m pip install --upgrade pip
                     python3 -m venv venv
                     virtualenv venv
                     . venv/bin/activate
