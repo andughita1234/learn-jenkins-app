@@ -9,7 +9,6 @@ pipeline {
                     reuseNode true
                 }
             }
-            }
             steps {
                 // Set up Python environment
                 sh '''
@@ -83,4 +82,4 @@ pipeline {
             cleanWs() // Clean up the workspace after the build
         }
     }
-
+}
