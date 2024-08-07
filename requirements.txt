@@ -1,0 +1,26 @@
+# Selenium is the primary tool for web automation testing
+selenium==4.11.2
+
+# pytest is a testing framework that makes it easy to write simple tests
+pytest==7.4.0
+
+# pytest-html is a plugin for pytest that generates HTML reports for test results
+pytest-html==4.2.0
+
+# WebDriver Manager automatically manages WebDriver binaries (e.g., ChromeDriver) for Selenium
+webdriver-manager==4.0.0
+
+# Optional: If your tests involve mocking web requests or responses
+responses==0.23.0
+
+# Optional: To handle more complex browser interactions like file uploads
+pyautogui==0.9.53
+
+# Optional: Handling headless browser mode (especially useful in CI environments)
+pyvirtualdisplay==3.0
+
+# Optional: For type checking in Python (useful in larger projects)
+mypy==1.4.1
+
+# Optional: For linting (included if you're following best practices for code quality)
+pylint==2.17.4
