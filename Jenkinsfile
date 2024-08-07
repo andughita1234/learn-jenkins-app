@@ -12,7 +12,7 @@ pipeline {
             steps {
                 // Set up Python environment
                 sh '''
-                    pip install --upgrade pip
+                    pip install --user --upgrade pip
                     pip install virtualenv
                     virtualenv venv
                     . venv/bin/activate
